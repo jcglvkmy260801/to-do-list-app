@@ -1,0 +1,115 @@
+:root {
+  --primary: #a5c882;
+  --seconday: #d33f49;
+  --light: #fff;
+  --dark: #000;
+  --disabled: #e7e7e7;
+}
+
+body {
+  background-color: var(--disabled);
+}
+
+.date-day,
+.date-month,
+.date-year,
+.date-day-name {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.date-day {
+  font-size: 50px;
+}
+
+.date-month {
+  font-size: 30px;
+}
+
+.date-year {
+  font-size: 25px;
+}
+
+.date-day-name {
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+
+.task-title-input {
+  border: none;
+  background-color: var(--disabled);
+}
+
+.task-title-input:focus {
+  outline: none;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.list-container {
+  width: 100%;
+  max-width: 350px;
+  padding: 25px;
+  background-color: var(--light);
+}
+
+.date-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.form-container {
+  margin-top: 10px;
+}
+
+.form-container input {
+  height: 30px;
+  padding: 5px;
+}
+
+.form-container .add-button {
+  border: none;
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  background-color: var(--seconday);
+  color: var(--light);
+  cursor: pointer;
+}
+
+.delete-button {
+  border: none;
+  height: 30px;
+  background-color: var(--seconday);
+  color: var(--light);
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.round-border {
+  border-radius: 5px;
+}
+
+.task-container {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.task {
+  border-radius: 5px;
+  font-size: 25px;
+  background-color: var(--disabled);
+  margin-top: 10px;
+}
+
+.done {
+  background-color: var(--primary);
+  color: white;
+}

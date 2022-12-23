@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do-List-App</title>
+</head>
+<body>
+    <main class="main-container">
+        <div class="list-container round-border">
+            <div class="date-container">
+                <div class="date-left">
+                    <div class="date-day"></div>
+                    <div class="date-month"></div>
+                    <div class="date-year"></div>
+                </div>
+                <div class="date-right">
+                    <div class="date-day-name"></div>
+                </div>
+            </div>
+            <div class="form-container">
+                <form action="#">
+                    <input class="task-title-input round-border" type="text" placeholder="Nueva tarea" required autofocus>
+                    <button class="round-border add-button" type="button">+</button>
+                    <button class="round-border delete-button" type="button">clear completed</button>
+                </form>
+            </div>
+            <div class="task-container"></div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
